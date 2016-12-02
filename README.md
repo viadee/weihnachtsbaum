@@ -31,3 +31,7 @@ r Team der"); center("viadee Unternehmensbe
                    ratun
                    g");}}
 ```
+
+[Clean-Code Prinzip](http://clean-code-developer.de/die-grade/roter-grad/#Ein_Versionskontrollsystem_einsetzen): Quellcode gehört in ein Code-Repository. 
+Das gilt auch wenn er nur einen Weihnachtsbaum ausgibt:
+![BaumBild](https://github.com/viadee/weihnachtsbaum/blob/master/baum.png)
