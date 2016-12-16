@@ -8,22 +8,22 @@
                 tings {priv
               ate static fin
               al  int  KOMPLE
-             XITÄT = 28; priv
+             XITÃ„T = 28; priv
            ate static final Str
            ing  BEGREIFEN  =  "*
          ";private static final int
-         LÖSUNGEN  =  10;   private
+         LÃ–SUNGEN  =  10;   private
         static final  String  SCHAF
        FEN = "**"; public static voi
       d center(String msg) { for (int
-     i = 0; i < (KOMPLEXITÄT - msg.le
+     i = 0; i < (KOMPLEXITÃ„T - msg.le
     ngth()) >> 1; i++) {System.out.pri
     nt(" ");} System.out.println(msg);}
    public static void main(String[]args)
   {String line=BEGREIFEN; for(int i=0; i
-  < LÖSUNGEN; i++){center(line);line+=SCH
+  < LÃ–SUNGEN; i++){center(line);line+=SCH
  AFFEN;} center("*");center("*\n");center
- ("Frohe Weihnachten"); center("wünscht Ih
+ ("Frohe Weihnachten"); center("wÃ¼nscht Ih
 r Team der"); center("viadee Unternehmensbe
                    ratun
                    g");}}
@@ -32,13 +32,13 @@ r Team der"); center("viadee Unternehmensbe
 package christmas;
 
 public class Greetings {
-    private static final int KOMPLEXITÄT = 28;
+    private static final int KOMPLEXITAET = 28;
     private static final String BEGREIFEN = "*";
-    private static final int LÖSUNGEN = 10;
+    private static final int LOESUNGEN = 10;
     private static final String SCHAFFEN = "**";
 
     public static void center(String msg) {
-        for (int i = 0; i < (KOMPLEXITÄT - msg.length()) >> 1; i++) {
+        for (int i = 0; i < (KOMPLEXITAET - msg.length()) >> 1; i++) {
             System.out.print(" ");
         }
         System.out.println(msg);
@@ -46,14 +46,14 @@ public class Greetings {
 
     public static void main(String[] args) {
         String line = BEGREIFEN;
-        for (int i = 0; i < LÖSUNGEN; i++) {
+        for (int i = 0; i < LOESUNGEN; i++) {
             center(line);
             line += SCHAFFEN;
         }
         center("*");
         center("*\n");
         center("Frohe Weihnachten");
-        center("wünscht Ihr Team der");
+        center("wÃ¼nscht Ihr Team der");
         center("viadee Unternehmensberatung");
     }
 }
